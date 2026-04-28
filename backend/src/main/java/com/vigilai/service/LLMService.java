@@ -21,7 +21,7 @@ public class LLMService {
     @Autowired
     private RestTemplate restTemplate;
 
-    @Value("${ai.llm.url}")
+    @Value("${llm.service.url}")
     private String llmUrl;
 
     // ─────────────────────────────────────────────

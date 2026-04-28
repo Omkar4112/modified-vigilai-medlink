@@ -38,8 +38,9 @@ spring:
 ai:
   service:
     url: ${AI_SERVICE_URL:http://localhost:8000/predict}
-  llm:
-    url: ${LLM_SERVICE_URL:http://localhost:8001/explain}
+llm:
+  service:
+    url: ${LLM_SERVICE_URL:http://localhost:8000/explain}
 
 vigilai:
   encryption:
